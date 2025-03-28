@@ -10,21 +10,21 @@ fi
 
 read -rsp $'Check if the PHP ini file is with the proper fields uncommented.\nPress enter to continue...\n'
 
-# Installing Laravel
+# echo Installing Laravel
 # composer global require laravel/installer
 
-# Installing vendor
-# composer install
+# echo Installing vendor
+composer install
 
-# Generating the .env file
-# cp .env.example .env
-# php artisan key:generate
+# echo Generating the .env file
+cp .env.example .env
+php artisan key:generate
 
-# Migrating/Populating the Database
-# php artisan migrate
+# echo Migrating/Populating the Database
+php artisan migrate
 
-# Dealing with Node (installing dependencies and building the application)
-# npm install && npm run build
+# echo Dealing with Node (installing dependencies and building the application)
+npm install && npm run build
 
-# Running the application
-# composer run dev
+# echo Running the application
+composer run dev
