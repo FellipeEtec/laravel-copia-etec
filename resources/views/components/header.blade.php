@@ -5,12 +5,6 @@
         <div><!-- Logo do CPS com link --></div>
     </div>
 
-    <!-- Pesquisa -->
-    <form action="">
-        <input type="search" name="" id="">
-        <button type="submit"></button>
-    </form>
-
     <!-- Navegação -->
     <nav>
         <ul>
@@ -20,4 +14,10 @@
             <li><a href="">Contato</a></li>
         </ul>
     </nav>
+
+    <!-- Pesquisa -->
+    <form action="">
+        <input type="search" name="" id="">
+        <button type="submit"></button>
+    </form>
 </header>
