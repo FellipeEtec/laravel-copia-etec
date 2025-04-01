@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('title')
-Home
+Etec da Zona Leste
 @endsection
 
 @section('content')

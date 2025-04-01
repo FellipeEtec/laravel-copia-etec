@@ -8,11 +8,12 @@
     <title>@yield('title')</title>
 </head>
 
-<body class="flex flex-col w-full h-screen bg-neutral-900 text-white">
+<body class="flex flex-col w-full h-screen">
     @include('components.header')
     <div class="container flex-1 mx-auto">
         @yield('content')
     </div>
+    @include('components.footer')
 </body>
 
 </html>
