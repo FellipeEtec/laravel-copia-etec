@@ -21,9 +21,7 @@
             </section>
         </div>
     </div>
-    <div class="w-full h-[50px] bg-white">
-
-    </div>
+    <div class="w-full h-[50px] bg-white"></div>
     <div class="flex items-center justify-center w-full p-2 bg-black">
         <div class="pl-[48px] py-[20px] pr-[48px] rounded-r-full bg-black">
             <a href="http://www.saopaulo.sp.gov.br/">
