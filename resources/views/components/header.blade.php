@@ -63,7 +63,7 @@
 
             <!-- Navegação -->
             <nav>
-                <ul class="text-white font-semibold flex rounded-full overflow-hidden border border-red-700 *:transition-colors">
+                <ul class="text-white flex rounded-full overflow-hidden border border-red-700 *:transition-colors">
                     <li class="bg-red-700 hover:text-red-700 hover:bg-white">
                         <a href="{{ route('index') }}" class="block px-5 py-3">
                             Home
@@ -93,7 +93,7 @@
                 class="flex divide-x divide-neutral-300 w-full max-w-[360px] border border-neutral-300 rounded-3xl overflow-hidden has-focus:border-neutral-400 has-focus:divide-neutral-400">
                 <input
                     type="search"
-                    name="value"
+                    name="procura"
                     placeholder="O que deseja procurar?"
                     class="flex-1 px-6 py-3 outline-none">
                 <button

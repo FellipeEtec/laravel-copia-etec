@@ -10,7 +10,7 @@
 
 <body class="flex flex-col w-full h-screen">
     @include('components.header')
-    <div class="container flex-1 mx-auto">
+    <div class="flex-1 mx-auto w-full max-w-[1280px]">
         @yield('content')
     </div>
     @include('components.footer')
