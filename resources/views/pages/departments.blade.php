@@ -6,12 +6,12 @@ Departamentos | Etec da Zona Leste
 
 @section('content')
 <main class="mb-24">
-    <h1 class="text-4xl mb-8 pb-2 border-b border-neutral-300">
+    <h1 class="text-4xl mt-8 mb-16 pb-2 border-b border-neutral-300">
         Lista de Departamentos
     </h1>
 
-    <div class="flex flex-col gap-8">
-        <section>
+    <div class="flex">
+        <section class="flex-1">
             <h2 class="text-3xl mb-4">
                 Secretaria Acadêmica
             </h2>
@@ -22,7 +22,7 @@ Departamentos | Etec da Zona Leste
                         Horários de Atendimentos
                     </h3>
 
-                    <div class="w-[640px] p-1 border border-neutral-300 rounded-sm overflow-hidden *:odd:bg-stone-100">
+                    <div class="w-[560px] p-1 border border-neutral-300 rounded-sm overflow-hidden *:odd:bg-stone-100">
                         <div class="font-medium flex w-full *:flex-1 *:px-3 *:py-2">
                             <div>
                                 Segunda-feira
@@ -94,7 +94,9 @@ Departamentos | Etec da Zona Leste
             </div>
         </section>
 
-        <section>
+        <div class="border-r border-neutral-300 mx-8"></div>
+
+        <section class="flex-1">
             <h2 class="text-3xl mb-4">
                 Coordenação de Cursos
             </h2>
