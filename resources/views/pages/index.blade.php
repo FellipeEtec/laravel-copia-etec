@@ -5,7 +5,7 @@ Etec da Zona Leste
 @endsection
 
 @section('content')
-<main class="flex flex-col gap-16 my-8">
+<main class="flex flex-col gap-16 mb-24">
     <!-- Apresentando a Etec -->
     <section>
         <figure class="relative h-[500px] rounded-xl overflow-hidden">

@@ -8,7 +8,7 @@
     <title>@yield('title')</title>
 </head>
 
-<body class="flex flex-col w-full h-screen">
+<body class="flex flex-col gap-8 w-full h-screen">
     @include('components.header')
     <div class="flex-1 mx-auto w-full max-w-[1280px]">
         @yield('content')

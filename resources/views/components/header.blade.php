@@ -4,7 +4,7 @@
             <a href="http://www.saopaulo.sp.gov.br/">
                 <img
                     src="{{ Vite::asset('resources/images/logo-governo-do-estado-sp.png') }}"
-                    alt="Etec da Zona Leste e Centro Paula Souza"
+                    alt="Governo do Estado de São Paulo"
                     decoding="async" fetchpriority="high"
                     class="h-[38px] object-cover">
             </a>
