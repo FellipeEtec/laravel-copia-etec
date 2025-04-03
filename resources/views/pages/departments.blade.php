@@ -23,7 +23,7 @@ Departamentos | Etec da Zona Leste
                     </h3>
 
                     <div class="w-[560px] p-0.5 border border-neutral-300 rounded-sm overflow-hidden *:border-b *:border-neutral-300">
-                        <div class="font-medium flex w-full bg-stone-100 *:flex-1 *:px-3 *:py-2">
+                        <div class="font-medium flex w-full border-b border-neutral-300 bg-stone-100 *:flex-1 *:px-3 *:py-2">
                             <div>
                                 Segunda-feira
                             </div>
