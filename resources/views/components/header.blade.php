@@ -90,7 +90,7 @@
             <!-- Pesquisa -->
             <form
                 action=""
-                class="flex divide-x divide-neutral-300 w-full max-w-[360px] border border-neutral-300 rounded-3xl overflow-hidden has-focus:border-neutral-400 has-focus:divide-neutral-400">
+                class="flex divide-x divide-neutral-300 w-full max-w-[300px] border border-neutral-300 rounded-3xl overflow-hidden has-focus:border-neutral-400 has-focus:divide-neutral-400">
                 <input
                     type="search"
                     name="procura"
@@ -98,7 +98,7 @@
                     class="flex-1 px-6 py-3 outline-none">
                 <button
                     type="submit"
-                    class="flex items-center justify-center px-5 cursor-pointer stroke-red-700 hover:bg-red-700 hover:stroke-white transition-colors">
+                    class="flex items-center justify-center size-12 pr-1 cursor-pointer stroke-red-700 hover:bg-red-700 hover:stroke-white transition-colors">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
