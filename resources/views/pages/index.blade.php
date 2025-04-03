@@ -8,9 +8,9 @@ Etec da Zona Leste
 <main class="flex flex-col gap-16 mb-24">
     <!-- Apresentando a Etec -->
     <section>
-        <figure class="relative h-[500px] rounded-xl overflow-hidden">
+        <figure class="relative h-[600px] rounded-xl overflow-hidden">
             <!-- Devia ser uma imagem -->
-            <div class="h-full w-full bg-neutral-300"></div>
+            <img src="{{ Vite::asset('resources/images/ds.jpg') }}" class="h-full w-full bg-neutral-300 object-cover" />
             <figcaption class="text-white absolute bottom-0 left-0 w-full px-16 pb-8 pt-24 bg-linear-to-t from-black/30 to-transparent">
                 <h2 class="font-semibold text-4xl w-fit border-b-2 mb-4">
                     Desenvolvimento de Sistemas
@@ -24,7 +24,7 @@ Etec da Zona Leste
 
     <!-- Destaques / Cursos -->
     <section>
-        <h2 class="text-3xl mb-4 pb-2 border-b border-neutral-400">
+        <h2 class="text-sky-800 text-3xl mb-4 pb-2 border-b border-neutral-300">
             Cursos em Destaque
         </h2>
 
@@ -32,11 +32,11 @@ Etec da Zona Leste
             <ul class="flex gap-8">
                 @foreach ($destaques as $destaque)
                 <li class="group min-w-[360px] w-[360px] h-[240px] mb-4">
-                    <div class="w-full h-full border border-neutral-400 rounded-xl overflow-hidden shadow transition-transform">
+                    <div class="w-full h-full border border-neutral-300 rounded-md overflow-hidden shadow transition-transform">
                         <a href="{{ route('courses') }}" class="w-full h-full">
                             <figure class="relative flex flex-col w-full h-full">
                                 <img src="{{ $destaque['imagem'] }}" alt="" class="w-full h-full bg-neutral-300 object-cover transition-transform duration-500 group-hover:scale-105">
-                                <figcaption class="text-white absolute bottom-0 left-0 w-full px-8 pb-6 pt-10 bg-linear-to-t from-black/30 to-transparent">
+                                <figcaption class="text-white absolute bottom-0 left-0 w-full px-8 pb-6 pt-10 bg-linear-to-t from-black/50 to-transparent">
                                     <h2 class="font-semibold text-2xl">
                                         {{ $destaque['nome'] }}
                                     </h2>
@@ -52,7 +52,7 @@ Etec da Zona Leste
 
     <!-- Links úteis -->
     <section>
-        <h2 class="text-3xl mb-4 pb-2 border-b border-neutral-400">
+        <h2 class="text-sky-800 text-3xl mb-4 pb-2 border-b border-neutral-300">
             Links Úteis
         </h2>
         <ul class="flex gap-4 justify-between">

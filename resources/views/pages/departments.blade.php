@@ -18,7 +18,7 @@ Departamentos | Etec da Zona Leste
 
             <div class="flex flex-col gap-4 ml-8">
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Horários de Atendimentos
                     </h3>
 
@@ -72,7 +72,7 @@ Departamentos | Etec da Zona Leste
                 </div>
 
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Equipe
                     </h3>
 
@@ -83,7 +83,7 @@ Departamentos | Etec da Zona Leste
                 </div>
 
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Contato
                     </h3>
                     <ul class="ml-8 *:before:content-['-'] *:before:mr-2">
@@ -107,7 +107,7 @@ Departamentos | Etec da Zona Leste
                 </p>
 
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Coordenador Novotec
                     </h3>
                     <ul class="ml-8 *:before:content-['-'] *:before:mr-2">
@@ -120,7 +120,7 @@ Departamentos | Etec da Zona Leste
                 </div>
 
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Coordenador Curso Técnico
                     </h3>
 
@@ -133,7 +133,7 @@ Departamentos | Etec da Zona Leste
                 </div>
 
                 <div>
-                    <h3 class="text-2xl text-sky-700">
+                    <h3 class="text-2xl text-sky-800">
                         Contato
                     </h3>
                     <ul class="ml-8 *:before:content-['-'] *:before:mr-2">

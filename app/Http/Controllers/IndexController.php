@@ -9,20 +9,20 @@ class IndexController extends Controller {
     public static function index() {
         return view("pages.index", ['destaques' => [
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Desenvolvimento de Sistemas',
+                'imagem' => Vite::asset('resources/images/analise-e-desenvolvimento-de-sistemas-o-que-faz.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Desenvolvimento de Sistemas (AMS)',
+                'imagem' => Vite::asset('resources/images/ams.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Administração',
+                'imagem' => Vite::asset('resources/images/administracao.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Recursos Humanos',
+                'imagem' => Vite::asset('resources/images/equipe-de-negocios-bem-sucedido-e-feliz-2-scaled.jpg')
             ],
         ]]);
     }
@@ -30,25 +30,35 @@ class IndexController extends Controller {
     public static function courses() {
         return view("pages.courses", ['courses' => [
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'descricao' => '',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Desenvolvimento de Sistemas',
+                'descricao' => 'Aprenda a programar e criar sistemas para web e desktop, garantindo alta empregabilidade no setor de tecnologia.',
+                'imagem' => Vite::asset('resources/images/analise-e-desenvolvimento-de-sistemas-o-que-faz.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'descricao' => '',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Desenvolvimento de Sistemas (AMS)',
+                'descricao' => 'Desenvolva habilidades em programação e suporte a sistemas, focando em aplicações corporativas e inovação tecnológica.',
+                'imagem' => Vite::asset('resources/images/ams.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'descricao' => '',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Administração',
+                'descricao' => 'Domine gestão empresarial, finanças e planejamento estratégico para atuar em diversos setores do mercado.',
+                'imagem' => Vite::asset('resources/images/administracao.jpg')
             ],
             [
-                'nome' => 'Desenvolvimento de Sistemas',
-                'descricao' => '',
-                'imagem' => Vite::asset('resources/images/etec_zona_leste.png')
+                'nome' => 'EM Recursos Humanos',
+                'descricao' => 'Desenvolva competências em recrutamento, gestão de pessoas e clima organizacional, impulsionando carreiras e empresas.',
+                'imagem' => Vite::asset('resources/images/equipe-de-negocios-bem-sucedido-e-feliz-2-scaled.jpg')
             ],
+            [
+                'nome' => 'EM Logística',
+                'descricao' => 'Aprenda a otimizar transportes, estoques e operações, garantindo eficiência na cadeia de suprimentos.',
+                'imagem' => Vite::asset('resources/images/intralogistica-logistica-inbound-e-outbound-voce-sabe-o-que-sao.webp')
+            ],
+            [
+                'nome' => 'Téc. Contabilidade',
+                'descricao' => 'Torne-se especialista em registros financeiros, tributos e auditoria, essencial para empresas e negócios próprios.',
+                'imagem' => Vite::asset('resources/images/Contabilidade-para-indstrias_principais-pontos-de-ateno.png')
+            ]
         ]]);
     }
 

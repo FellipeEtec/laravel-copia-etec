@@ -6,7 +6,7 @@ Contato | Etec da Zona Leste
 
 @section('content')
 <main class="mx-auto max-w-[720px] mt-8 mb-24">
-    <h1 class="text-sky-700 text-4xl mb-6 pb-2 border-b border-neutral-300">
+    <h1 class="text-sky-800 text-4xl mb-6 pb-2 border-b border-neutral-300">
         Contato
     </h1>
     <p class="opacity-80 text-lg">
